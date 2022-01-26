@@ -2,8 +2,7 @@
 We will use word vector representations to build an Emojifier that classifies the sentiment of a sentence to one of a given number of classes and pick an emoji accordingly.
 🤩 💫 🔥
 
-An emojifier will make your text messages more expressive?
-Rather than writing:
+An emojifier will make your text messages more expressive. Rather than writing:
 > Congratulations on the promotion! Let's get coffee and talk. Love you!  
 
 An emojifier can automatically turn this into:
