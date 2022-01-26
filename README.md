@@ -23,7 +23,17 @@ Some examples of sentences and their labels (emojis) are shown below.
 Therefore, this is a classification problem with 5 classes.
 
 ## Models
-We build two different models. With each model, we use the pre-trained 50-dimensional [GloVe](https://nlp.stanford.edu/projects/glove) vectors 
+We build two different models. With each model, we use the pre-trained 50-dimensional [GloVe](https://nlp.stanford.edu/projects/glove) as word embeddings.
+
 ### Baseline model
-The baseline model simply averages the embeddings
+The baseline model simply averages the embeddings of the words in the input sentence, forward propagagetes the averge through a softmax layer.
+
 ![Baseline model](images/image_1.png)
+
+In particular, this model does not consider the word ordering.
+
+### LSTM model
+The second model use LSTM to take word ordering into account.
+
+![LSTM model](images/emojifier-v2.png)
+
