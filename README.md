@@ -65,6 +65,6 @@ Expected emoji:😞 prediction: she is a bully	❤️
 Expected emoji:😄 prediction: she said yes	😞
 Expected emoji:🍴 prediction: I did not have breakfast 😞
 ```
-This is because the training set is small and doesn't have a lot of examples of negation. If the training set were larger, the LSTM model would be much better than the baseline model at understanding more complex sentences.
+This is because the training set is small. If the training set were larger, the LSTM model would be much better than the baseline model at understanding more complex sentences.
 
 
