@@ -21,3 +21,9 @@ Some examples of sentences and their labels (emojis) are shown below.
 ![dataset](images/data_set.png)
 
 Therefore, this is a classification problem with 5 classes.
+
+## Models
+We build two different models. With each model, we use the pre-trained 50-dimensional [GloVe](https://nlp.stanford.edu/projects/glove) vectors 
+### Baseline model
+The baseline model simply averages the embeddings
+![Baseline model](images/image_1.png)
